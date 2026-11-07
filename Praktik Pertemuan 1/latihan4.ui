@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>150</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Konverter Suhu</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_c">
+     <property name="text">
+      <string>Celcius:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="input_c">
+     <property name="placeholderText">
+      <string>Masukkan suhu Celcius</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_f">
+     <property name="text">
+      <string>Fahrenheit:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="output_f">
+     <property name="styleSheet">
+      <string>font-size: 16px; font-weight: bold;</string>
+     </property>
+     <property name="text">
+      <string>0 °F</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

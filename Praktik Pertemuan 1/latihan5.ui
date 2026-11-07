@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>To-Do List</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLineEdit" name="task_input">
+     <property name="placeholderText">
+      <string>Tugas baru...</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="add_btn">
+     <property name="text">
+      <string>Tambah</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="task_list"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="complete_btn">
+     <property name="text">
+      <string>Tandai Selesai</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="delete_btn">
+     <property name="text">
+      <string>Hapus</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

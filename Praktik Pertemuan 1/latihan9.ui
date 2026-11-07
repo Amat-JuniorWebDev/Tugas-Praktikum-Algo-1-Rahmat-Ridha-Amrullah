@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CurrencyConverter</class>
+ <widget class="QWidget" name="CurrencyConverter">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Konverter Mata Uang</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="labelTitle">
+     <property name="text">
+      <string>Konversi Mata Uang ke Rupiah</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDoubleSpinBox" name="amount_input">
+     <property name="prefix">
+      <string>Jumlah: </string>
+     </property>
+     <property name="maximum">
+      <double>1000000.0</double>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelDari">
+     <property name="text">
+      <string>Dari:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="from_combo"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="labelKe">
+     <property name="text">
+      <string>Ke:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="to_combo"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="result_label">
+     <property name="styleSheet">
+      <string notr="true">font-size: 18px; font-weight: bold;</string>
+     </property>
+     <property name="text">
+      <string>Hasil: 0</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
